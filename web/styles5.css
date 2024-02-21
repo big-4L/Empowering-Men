@@ -1,0 +1,88 @@
+.services-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.services-container h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+
+.services-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-container li {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/b3.jpg);
+    background-size: cover;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem 0;
+    text-align: centers;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.321) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center-;
+}
+img.hero {
+    width: 100%;
+}
+.service-item{
+    border-bottom: #444;
+    padding: 10px 0;
+}
+h3.service-title{
+        color:#000000;
+        margin-top:10 px 0;
+}
+@media screen and (min-width: 960px) {
+    body {
+      background-color: lightgreen;
+    }
+}

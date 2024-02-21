@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering Men - Contact</title>
+    <meta name="description" content="Contact Empowering Men Clinic for appointments and inquiries. Address, email, and phone contact details are provided. Get in touch with us today.">
+    <link rel="stylesheet" href="styles3.css">
+    <script src="https://kit.fontawesome.com/e71978baf8.js" crossorigin="anonymous"></script>
+    <script src="formValidation.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Empowering Men</h1>
+    </header>
+    
+    <nav>
+        <a href="home.html" class="fa-solid fa-house fa-beat-fade fa-xs">Home</i>
+        <a href="services.html" class="fa-solid fa-server fa-beat-fade fa-xs">Services</a>
+        <a href="contact.html" class="fa-solid fa-address-card fa-beat-fade fa-xs">Contact</a>
+        <a href="news.html" class="fa-solid fa-newspaper fa-beat-fade fa-xs">News</a>
+        <a href="about.html" class="fa-solid fa-user-ninja fa-beat-fade fa-xs">About Us</a>
+        <a href="blog.html" class="fa-solid fa-blog fa-beat-fade fa-xs">Blog</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <h3>Address</h3>
+            <address>
+                <p>1017 Block H, Pretoria, 0152</p>
+                <p>Email: connect@empoweringmenclinic.com</p>
+                <p>Tel: +27-(012)-678-8762</p>
+            </address>
+
+        <h3>Get in touch</h3>
+        <p>Have questions or want to book an appointment? Fill out the form below!</p>
+        <form action="submit_form.php" method="post" onsubmit="return validateForm();">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        
+        </div>
+        
+    </main>
+
+    <footer>
+        &copy; 2023 Empowering Men - Personalized Life Coaching & Therapy
+    </footer>
+</body>
+</html>
